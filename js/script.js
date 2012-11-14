@@ -4,12 +4,14 @@
 (function($){
 var ajpaz = {
 	contact : function() {
-		$("a[href^=mailto]").colorbox({
-			inline: true,
-			href: "#modal-contact",
-			fixed: true,
-			title: 'Contact Me'
-		});
+        
+//		$("a[href^=mailto]").colorbox({
+//			inline: true,
+//			href: "#modal-contact",
+//			fixed: true,
+//			title: 'Contact Me'
+//		});
+        
 		
 		var submit_handler = function() {
 			$('#contact-submit').val('Sending').attr('disabled', true).addClass('sending');
