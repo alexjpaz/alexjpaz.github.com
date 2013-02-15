@@ -14,3 +14,9 @@ body {
 
 .pseudo-page {
 }
+
+.nav-link-blog a {
+	color: rgb(255, 112, 0);	
+}
+
+.nav-link-blog>li>a:hover, .nav-link-blog>li>a:focus

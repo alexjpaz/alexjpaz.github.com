@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
-    <link href="assets/css/style.css" rel="stylesheet" media="screen">
-    
-  </head>
-  <body>
-    {% include layout/master.html %}
-    <script src="//cdnjs.cloudflare.com/ajax/libs/headjs/0.99/head.min.js"></script>
-    <script>head.js("assets/js/init.js");</script>
-  </body>
-</html>
+{% include layout/doc-header.html %}
+  	<div class='container-narrow'>
+	{% include layout/page-navbar.html %}
+	{{ content }}			
+	</div>
+{% include layout/doc-footer.html %}

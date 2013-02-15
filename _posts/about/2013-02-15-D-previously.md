@@ -1,0 +1,6 @@
+---
+category: about
+somevar: awesome
+---
+
+I've done work for []
