@@ -1,8 +1,12 @@
-<div class='container'>
+<div class='container-narrow'>
 	{% include layout/navbar.html %}
-	<div class='row'>
-		<div class='span3'>
-			<h1>span 3</h1>
+	<div class='row-fluid'>
+		<div class='jumbotron span12'>
+			{% include layout/jumbo.html %}		
 		</div>
+	</div>
+	<hr />
+	<div class='row-fluid'>
+		{% include front/overview.html %}
 	</div>
 </div>
