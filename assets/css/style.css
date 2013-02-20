@@ -15,8 +15,8 @@ body {
 .pseudo-page {
 }
 
-.nav-link-blog a {
-	color: rgb(255, 112, 0);	
+.jumbotron {
+	text-align: center;
+	color: #aaa;
+	letter-space: 1em;	
 }
-
-.nav-link-blog>li>a:hover, .nav-link-blog>li>a:focus

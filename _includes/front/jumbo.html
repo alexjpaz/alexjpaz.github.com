@@ -1,6 +1,1 @@
-{% for post in site.categories.about reversed offset:1  %}
-	<div class='pseudo-page'>
-		{{ post.content }}
-	</div>
-	<hr />
-{% endfor %}
+{{ site.categories.about[0].content }}
