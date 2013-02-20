@@ -20,3 +20,17 @@ body {
 	color: #aaa;
 	letter-space: 1em;	
 }
+
+.about-large {
+	font-size: 1.3em;
+	line-height: 1.7em;
+}
+
+.about-large li {
+	font-size: 1.3em;
+	line-height: 1.7em;
+}
+
+.about-center {
+	text-align: center;
+}

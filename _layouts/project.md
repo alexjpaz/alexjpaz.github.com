@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h4>{{ page.title }}</h4>
+<strong>{{ page.project-description }}</strong>
+<p class='muted'>{{ page.project-company }} <emp>({{ page.project-date-start }} - {{ page.project-date-end }})</emp></p>
+{{ content }}
+
+
