@@ -8,14 +8,21 @@ subtitle: Latest blog posts
 
 {% if site.categories.project.size >= 1 %}
 	{% for post in site.categories.project %}
-		<div class='post-project'>
-			<article id='{{ post.id }}'>
-				<h4><a href='{{ post.url }}'>{{ post.title }}</a></h4>
-			</article>
+		<div class='post-project row-fluid'>
+<!-- 			<div class='post-project-img span2'> -->
+<!-- 				<img src="/assets/img/project/{{ post.project-img }}" /> -->
+<!-- 			</div> -->
+			<div class='post-project-main span12'>
+				<article id='{{ post.id }}'>
+					<h4><a href='{{ post.url }}'>{{ post.title }}</a></h4>
+					<strong>{{ post.project-description }}</strong>
+					<p class='muted'>{{ post.project-company }} <emp>({{ post.project-date-start }} - {{ post.project-date-end }})</emp></p>
+				</article>
+			</div>
 		</div>
 	{% endfor %}
 {% else %}
-	<p>No projects... man I must be bored</p>
+	<p>No projects... I must be bored.</p>
 {% endif %}
 
 

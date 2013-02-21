@@ -34,3 +34,15 @@ body {
 .about-center {
 	text-align: center;
 }
+
+.post-project {
+	margin-bottom: 20px;
+	background: #fdfdfd;
+}
+
+.post-project-img {
+}
+
+.post-project-main {
+	float: left;
+}
