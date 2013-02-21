@@ -6,7 +6,7 @@ layout: project
 project-date-start: 2010-05-10
 project-date-end: 2011-10-17
 project-company: West Virginia Office of Technology
-project-description:
+project-description: Web precense provided for municipal intitutions
 excerpt:
 ---
 
