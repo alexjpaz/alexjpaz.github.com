@@ -109,3 +109,4 @@ _Note: We could pass this information on to a rendering class to render to a can
 + The game logic
 + Creating [Google Hangout API](https://developers.google.com/+/hangouts/) app
 + Rendering with canvas
++ [Code example on github (WIP)](https://github.com/alexjpaz/sandbox/tree/tic-tac-toe)
