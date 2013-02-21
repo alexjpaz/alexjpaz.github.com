@@ -12,7 +12,7 @@ subtitle: Latest blog posts
 			<article id='{{ post.id }}'>
 				<h4><a href='{{ post.url }}'>{{ post.title }}</a></h4>
 				<p>{{ post.excerpt }}</p>
-				<small class='muted'>posted {{ post.date }}</small>
+				<small class='muted'>Posted {{ post.date | date: "%d %B %Y" }}</small>
 			</article>
 		</div>
 	{% endfor %}
