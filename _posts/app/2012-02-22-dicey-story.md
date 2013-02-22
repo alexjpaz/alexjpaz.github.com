@@ -8,4 +8,4 @@ A Google Hangout game that where you roll the dice and tell a story to the other
 
 [Github Project](https://github.com/alexjpaz/dicey-story)
 
-[Published app](http://dicey-story.herokuapps.com) on Heroku
+[Published app](http://dicey-story.herokuapp.com) on Heroku
