@@ -6,4 +6,4 @@
 		var tracker = _gat._getTracker("UA-25975548-1");
 		tracker._trackPageview();
 	});
-});
+})();
