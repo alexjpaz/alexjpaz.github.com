@@ -1,0 +1,25 @@
+---
+layout: default
+title: Alex Paz
+subtitle: Latest blog posts
+---
+
+<h3>Projects</h3>
+
+{% if site.categories.app.size >= 1 %}
+	{% for post in site.categories.app %}
+		<div class='post-project row-fluid'>
+<!-- 			<div class='post-project-img span2'> -->
+<!-- 				<img src="/assets/img/project/{{ post.project-img }}" /> -->
+<!-- 			</div> -->
+			<div class='post-project-main span12'>
+				<article id='{{ post.id }}'>
+					<h4><a href='{{ post.url }}'>{{ post.title }}</a></h4>
+					<strong>{{ post.project-description }}</strong>
+				</article>
+			</div>
+		</div>
+	{% endfor %}
+{% else %}
+	<p>No projects... I must be bored.</p>
+{% endif %}
