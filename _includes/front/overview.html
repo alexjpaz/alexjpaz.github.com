@@ -1,6 +1,9 @@
 {% for post in site.categories.about offset:1 %}
-	<div class="pseudo-page {{post.class }}">
-		{{ post.content }}
+	<div class="feature">
+		<h2 class='feature__title'>{{ post.title }}</h2>
+		<div class='feature__content clearfix'>
+			{{ post.content }}
+		</div>
 	</div>
 	<hr />
 {% endfor %}

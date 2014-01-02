@@ -1,6 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
+
 body {
-	padding-top: 20px;
-	padding-bottom: 40px;
+	background: #fafafa;
+}
+
+.masthead {
+}
+
+.masthead__branding {
+
+	margin: 0;
+}
+
+.feature {
+	padding: 20px;
+	background: #fafafa;
+	border: 1px #eee solid;
+}
+
+.feature__title {
+	margin: 0;
+}
+
+.feature__lead {
+	font-size: 1.25em;
+	width: 75%;
+}
+
+.feature__links {
+	font-size: 2em;
+}
+
+.feature .btn--main {
+	/*background: #5cb85c;*/
+	/*border-color: #4cae4c;*/
 }
 
 .container-narrow {
@@ -16,9 +49,16 @@ body {
 }
 
 .jumbotron {
+	font-family: 'Exo 2', sans-serif;
 	text-align: center;
-	color: #aaa;
+	color: #fefefe;
 	letter-space: 1em;	
+	background: #666;
+	text-shadow: 2px 2px #444;
+}
+
+.jumbotron h1 {
+	margin: 0;
 }
 
 .about-large {

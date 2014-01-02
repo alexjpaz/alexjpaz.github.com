@@ -1,12 +1,9 @@
 {% include layout/doc-header.html %}
-  	<div class='container-narrow'>
-	{% include layout/page-navbar.html %}  			
-		<div class='row-fluid'>
-			<div class='jumbotron span12'>
-				{{ site.categories.about[0].content }}
-			</div>
-		</div>
-		<hr />
+	{% include layout/page-navbar.html %}
+	<div class='jumbotron'>
+		<span>{{ site.categories.about[0].content }}</span>
+	</div>
+  	<div class='container'>
 		<div class='row-fluid'>
 			{% include front/overview.html %}
 		</div>
