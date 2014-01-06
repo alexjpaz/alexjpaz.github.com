@@ -4,6 +4,10 @@ body {
 	background: #fafafa;
 }
 
+.layout--content {
+	padding-top: 50px;
+}
+
 .masthead {
 }
 
@@ -36,13 +40,8 @@ body {
 	/*border-color: #4cae4c;*/
 }
 
-.container-narrow {
-	margin: 0 auto;
-	max-width: 700px;
-}
-
-.container-narrow > hr {
-	margin: 30px 0;
+.container--content { 
+	padding: 80px 0 0 0;
 }
 
 .pseudo-page {
@@ -50,6 +49,7 @@ body {
 
 .jumbotron {
 	font-family: 'Exo 2', sans-serif;
+	font-size: 2em;
 	text-align: center;
 	color: #fefefe;
 	letter-space: 1em;	
@@ -58,6 +58,8 @@ body {
 }
 
 .jumbotron h1 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 3em;
 	margin: 0;
 }
 
@@ -86,4 +88,6 @@ body {
 	float: left;
 }
 
-.text--strikethrough
+.text--strikethrough {
+
+}
