@@ -47,20 +47,43 @@ body {
 .pseudo-page {
 }
 
-.jumbotron {
+.jumbo__text {
+	min-height: 1px;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 2em;
-	text-align: center;
 	color: #fefefe;
 	letter-space: 1em;	
-	background: #666;
 	text-shadow: 2px 2px #444;
 }
 
-.jumbotron h1 {
-	font-family: 'Exo 2', sans-serif;
-	font-size: 3em;
-	margin: 0;
+
+.jumbo {
+	background: #777;
+}
+
+.jumbo__heading {
+	border: 1px solid red;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.jumbo__img {
+	border: 5px solid #fafafa;
+	box-shadow: 2px 2px 1px #666;
+}
+
+@media (min-width: 768px) {
+	.jumbo__heading {
+		text-align: left;
+		width: 400px;
+	}
+	.jumbo__text {
+		float: left;
+	}
+	.jumbo__img {
+		float: right;
+		width: 192px;
+	}
 }
 
 .about-large {
