@@ -20,17 +20,16 @@ post__category: project
 
 	<div class='posts posts--{{page.post__category}} container'>
 		<h2 class='posts__title'>A little about me</h2>
-			{% for post in site.categories.about %}
-				<div class='posts__article-row row'>
-					<div class='posts__article col-md-12'>
-						<article id='{{ post.id }}'>
-							<!--<h3 class='posts__article-title'>{{ post.title }}</h3>-->
-							<div class='posts__article-content'>
-								{{ post.content }}
-							</div>
-						</article>
-					</div>
+		{% for post in site.categories.about %}
+			<div class='posts__article-row row'>
+				<div class='posts__article col-md-12'>
+					<article id='{{ post.id }}'>
+						<div class='posts__article-content'>
+							{{ post.content }}
+						</div>
+					</article>
 				</div>
-			{% endfor %}
+			</div>
+		{% endfor %}
 	</div>
 </div>
