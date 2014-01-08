@@ -1,5 +1,36 @@
 ---
-layout: front
-title: Alex Paz
+layout: full
+title: About
+nav: top
 subtitle: Developer
+posts__title: Projects
+post__category: project
 ---
+
+<div class='front'>
+	<div class='jumbo'>
+		<div class='jumbo__heading  clearfix'>
+			<div class='jumbo__text'>
+				<h1>Alex Paz</h1>
+				<q>Yes, I still use VI</q>
+			</div>
+			<img src='http://www.gravatar.com/avatar/830145a71ea797aaff758c7432411d2a.png?s=192' class='img-circle jumbo__img' />
+		</div>
+	</div>
+
+	<div class='posts posts--{{page.post__category}} container'>
+		<h2 class='posts__title'>A little about me</h2>
+			{% for post in site.categories.about %}
+				<div class='posts__article-row row'>
+					<div class='posts__article col-md-12'>
+						<article id='{{ post.id }}'>
+							<!--<h3 class='posts__article-title'>{{ post.title }}</h3>-->
+							<div class='posts__article-content'>
+								{{ post.content }}
+							</div>
+						</article>
+					</div>
+				</div>
+			{% endfor %}
+	</div>
+</div>
