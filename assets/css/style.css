@@ -5,7 +5,6 @@ body {
 }
 
 .layout--content {
-	padding-top: 50px;
 }
 
 .masthead {
@@ -58,11 +57,19 @@ body {
 
 
 .jumbo {
-	background: #777;
+	min-height: 240px;
+	background-image: url(../img/triangular.png)
+} 
+
+.jumbo:before {
+	min-height: 240px;
+	background: red;
+	content: "";
+	display: block;
+	background: rgba(0,255,0,0.1);
 }
 
 .jumbo__heading {
-	border: 1px solid red;
 	margin: 0 auto;
 	text-align: center;
 }
