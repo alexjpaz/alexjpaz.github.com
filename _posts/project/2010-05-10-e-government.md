@@ -10,9 +10,6 @@ project-description: Web precense provided for municipal intitutions
 excerpt:
 ---
 
-Sharepoint
-HTML/CSS
+The WV E-Gov inititive was started by the [Community Connect Foundation](http://www.communityconnectfoundation.org/projects.php?id=6) and the [Alliance WV](http://www.alliancewv.org/e-gov_wv.html) with the goal to provide a web precense for all 55 counties in WV. Sharepoint sites were used as a content management system so that student representatives from each county could submit and update content.
 
-[Alliance WV](http://www.alliancewv.org/e-gov_wv.html)
-
-[Community Connect Foundation](http://www.communityconnectfoundation.org/projects.php?id=6)
+<img alt='Example E-Gov template' src='/assets/img/egov.jpg' class='img-thumbnail img-responsive' />
