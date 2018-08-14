@@ -2,4 +2,4 @@
 title: Current Terry Crews Mood
 ---
 
-{% include_relative ./foo.html content="This is my sample note." %}
+<p><img src="https://s3.amazonaws.com/images.imvdb.com/entities/terry-crews/terry-crews-music-videos.jpg" />&lt;/img&gt;</p>
