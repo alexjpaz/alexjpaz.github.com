@@ -2,4 +2,4 @@
 title: Current Terry Crews Mood
 ---
 
-<p><img src="https://static2.fjcdn.com/comments/Tikledpikle+rolled+a+random+image+posted+in+comment+57+at+_7fb6aa75130bdea2b1007a56172bc192.png" /></p>
+<p><img src="https://icon2.kisspng.com/20180620/roh/kisspng-terry-crews-mordhau-5b29ecccd83053.9397829115294742528855.jpg" /></p>
