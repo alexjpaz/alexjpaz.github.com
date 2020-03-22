@@ -1,3 +1,10 @@
 title: "alexjpaz.github.io"
 
 theme: minima
+
+collections:
+  - projects
+
+author:
+  name: Alexander Paz
+  email: "alex.j.paz@gmail.com"
