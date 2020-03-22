@@ -6,7 +6,7 @@ layout: home-live
 
 {% for project in site.projects %}
 <h3>
-    <a href="{{ project.url }}">{{ project.name }}</a>
+    <a href="{{ project.title_url }}">{{ project.name }}</a>
 </h3>
 <p>{{ project.content | markdownify }}</p>
 {% endfor %}
