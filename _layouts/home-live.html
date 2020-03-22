@@ -5,7 +5,9 @@ layout: home
 {%- include livejs.html -%}
 
 <div class='hero' markdown="1">
-  <img src="https://1.gravatar.com/avatar/830145a71ea797aaff758c7432411d2a?size=256" alt="A picture of Alexander Paz" />
+  <div class='hero-img'>
+    <img src="https://1.gravatar.com/avatar/830145a71ea797aaff758c7432411d2a?size=256" alt="A picture of Alexander Paz" />
+  </div>
 
   <h1>I am <strong>Alexander Paz</strong> / <a href='https://alexjpaz.com'>@alexjpaz</a></h1>
 
@@ -20,5 +22,14 @@ layout: home
   </p>
 
 </div>
+<style>
+  .hero-img {
+    text-align: center; 
+  }
+  .hero img {
+    border-radius: 100%;
+    box-shadow: 4px 4px 4px 0px #aaa;
+  }
+</style>
 
 {{ content }}
