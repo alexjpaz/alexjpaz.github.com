@@ -73,6 +73,8 @@ You can then open your browser to `http://localhost:4000` and you should see you
 
 ### Other goodies
 
+*NOTE* It turns own that jekyll has it's own live reload flag. Simply adding `-l` to the command watches the files and reloads the page!
+
 Typically with web frameworks such as `webpack` and command-line tools like `entr` there is the concept of "live reloading" or reloading the application when there is changes made to a project.
 
 Doing a quick search I landed on `livejs` and including this in my layouts for jekyll
