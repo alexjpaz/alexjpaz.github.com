@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitch Shortcuts</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Twitch Chat Helper
+      </h1>
+      <form name="chatform">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input is-large" id='username' type="text" name="username" placeholder="Twitch username (e.g. alexjpaz)">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button class="button is-link is-fullwidth is-large">Open chat in popup</button>
+          </div>
+        </div>
+      </form>
+      <script>
+        var chatform = document.forms["chatform"];
+
+        var usernameinput = chatform["username"];
+
+        var username = localStorage.getItem("alexjpaz.github.io/twitch/chat/username") || null;
+
+
+        if(username) {
+          usernameinput.value = username;
+        }
+
+        usernameinput.addEventListener('keyup', function(e) {
+          username = e.target.value;
+
+          localStorage.setItem("alexjpaz.github.io/twitch/chat/username", username);
+        }, true);
+
+        chatform.addEventListener('submit', function(e) {
+          window.open("https://www.twitch.tv/embed/"+username+"/chat?darkpopout&parent="+username, "twitch chat", "toolbar=no, scrollbars=no, menubar=no, status=no, directories=no")
+        });
+      </script>
+    </div>
+  </section>
+  </body>
+</html>
