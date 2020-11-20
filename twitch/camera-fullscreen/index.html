@@ -1,0 +1,45 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <style>
+    body, html { 
+      background: black;
+      padding: 0; 
+      margin: 0;
+    }
+  </style>
+    <video id="webcam" autoplay playsinline width="100%"></video>
+    <div id='body'>
+    </div>
+  <script>
+    const video = document.getElementById('webcam');
+
+    const deviceId = new URL(location.href).searchParams.get('deviceId');
+
+    navigator.mediaDevices.enumerateDevices()
+      .then((d) => {
+        console.log(d);
+      });
+
+    const constraints = {
+      video: {
+        width: { 
+          min: 1280 
+        }, 
+        height: { 
+          min: 720 
+        },
+        deviceId: {
+          exact: deviceId
+        }
+      }
+    }
+
+    navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
+      video.srcObject = stream;
+      video.play();
+    });
+  </script>
+  </body>
+</html>
