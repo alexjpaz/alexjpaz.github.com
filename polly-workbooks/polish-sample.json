@@ -1,0 +1,11 @@
+{
+    "name": "Polish Sample",
+    "phrases": [
+        {
+            "sourceLanguageCode": "en-Us",
+            "source": "Hi",
+            "targetLanguageCode": "pl-PL",
+            "target": "Cześć"
+        }
+    ]
+}
